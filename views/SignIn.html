@@ -4,9 +4,9 @@
       <h2>List Students</h2>
       <div>
         <div ng-repeat="item in students">
-          <span ng-click="signed_in = true">
+          <span ng-click="custom=!custom">
             {{item.name}}
-            <span class="student" id="{{item.name}}" ng-show="signed_in">is in the BUILDING!</span>
+            <span class="student" id="{{item.name}}" ng-show="custom">is in the BUILDING!</span>
           </span>
         </div>
       </div>

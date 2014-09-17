@@ -4,3 +4,9 @@
 .main-link:hover {
   color:red;
 }
+.student {
+  padding-left: 5px;
+}
+.pad-top {
+  margin-top: 50px;
+}

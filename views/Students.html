@@ -33,15 +33,20 @@
     </ul>
   </div>
 
-    <div class="col-md-4">
-      <h2>New Student</h2>
-      <form ng-submit="StudentsFactory.addStudent()" class="form-inline" role="form">
-        <div class="form-group">
-          <input type="text" ng-model="StudentsFactory.studentName" class="form-control" id="student-name" placeholder="Enter name">
-        </div>
-        <button type="submit" class="btn btn-danger">Submit</button>
-      </form>
-    </div>
+  <div class="col-md-4">
+    <h2>New Student</h2>
+    <form ng-submit="StudentsFactory.addStudent()" class="form-inline" role="form">
+      <div class="form-group">
+        <input type="text" ng-model="StudentsFactory.studentName" class="form-control" id="student-name" placeholder="Enter name">
+      </div>
+      <button type="submit" class="btn btn-danger">Submit</button>
+    </form>
   </div>
+
+  <div class="pad-top">
+    <a href="/#/sign-in">
+      Student Sign-In</a>
+  </div>
+
 
 </div>

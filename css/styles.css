@@ -1,0 +1,6 @@
+.main-link {
+  cursor: pointer;
+}
+.main-link:hover {
+  color:red;
+}
